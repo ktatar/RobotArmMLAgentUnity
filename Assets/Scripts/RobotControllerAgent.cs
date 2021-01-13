@@ -61,10 +61,12 @@ public class RobotControllerAgent : Agent
          inFrontOfComponent = UnityEngine.Random.value > 0.5f;
       }
       if(!inFrontOfComponent)
-         nearestComponent.transform.position = transform.position + new Vector3(Random.Range(0.3f,0.6f),Random.Range(0.1f,0.3f), Random.Range(0.3f,0.6f));
+         //previous y range = Random.Range(0.1f,0.3f)
+         nearestComponent.transform.position = transform.position + new Vector3(Random.Range(0.3f,0.6f),Random.Range(0.1f,1f), Random.Range(0.3f,0.6f));
       else
       {
-         nearestComponent.transform.position = endEffector.transform.TransformPoint(Vector3.zero) + new Vector3(Random.Range(0.01f,0.15f),Random.Range(0.01f,0.15f), Random.Range(0.01f,0.15f));
+         //previous y range = Random.Range(0.01f,0.15f)
+         nearestComponent.transform.position = endEffector.transform.TransformPoint(Vector3.zero) + new Vector3(Random.Range(0.01f,0.5f),Random.Range(0.01f,0.15f), Random.Range(0.01f,0.15f));
       }
       beginDistance = Vector3.Distance(endEffector.transform.TransformPoint(Vector3.zero), nearestComponent.transform.position);
       prevBest = beginDistance;
