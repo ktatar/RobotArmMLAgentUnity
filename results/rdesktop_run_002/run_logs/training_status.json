@@ -1,0 +1,48 @@
+{
+    "Robotarm": {
+        "checkpoints": [
+            {
+                "steps": 8499996,
+                "file_path": "results\\rdesktop__run_002\\Robotarm\\Robotarm-8499996.onnx",
+                "reward": -0.044829057712180945,
+                "creation_time": 1610540266.5031826
+            },
+            {
+                "steps": 8999939,
+                "file_path": "results\\rdesktop__run_002\\Robotarm\\Robotarm-8999939.onnx",
+                "reward": 0.5665823472636288,
+                "creation_time": 1610540818.1680286
+            },
+            {
+                "steps": 9499999,
+                "file_path": "results\\rdesktop__run_002\\Robotarm\\Robotarm-9499999.onnx",
+                "reward": 2.2011198606342077,
+                "creation_time": 1610541361.3509154
+            },
+            {
+                "steps": 9999933,
+                "file_path": "results\\rdesktop__run_002\\Robotarm\\Robotarm-9999933.onnx",
+                "reward": 0.35152153824937754,
+                "creation_time": 1610541904.3096473
+            },
+            {
+                "steps": 10000061,
+                "file_path": "results\\rdesktop__run_002\\Robotarm\\Robotarm-10000061.onnx",
+                "reward": 0.35152153824937754,
+                "creation_time": 1610541904.3804593
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 10000061,
+            "file_path": "results\\rdesktop__run_002\\Robotarm.onnx",
+            "reward": 0.35152153824937754,
+            "creation_time": 1610541904.3804593
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}

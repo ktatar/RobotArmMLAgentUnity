@@ -1,0 +1,24 @@
+{
+    "Robotarm": {
+        "checkpoints": [
+            {
+                "steps": 235438,
+                "file_path": "results\\ra_01\\Robotarm\\Robotarm-235438.onnx",
+                "reward": 1.613858394763049,
+                "creation_time": 1610151512.802784
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 235438,
+            "file_path": "results\\ra_01\\Robotarm.onnx",
+            "reward": 1.613858394763049,
+            "creation_time": 1610151512.802784
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.2.0",
+        "mlagents_version": "0.23.0",
+        "torch_version": "1.7.1",
+        "tensorflow_version": -1
+    }
+}
